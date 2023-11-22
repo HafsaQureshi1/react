@@ -3,15 +3,19 @@ import  Skills  from './Skills';
 import  About  from './About';
 import  Contact  from './Contact';
 import  AllPortfolio  from './AllPortfolio';
+import Carousal from './Carousal';
 export default function Welcome(){
     return(
         <div>
+        <Carousal />
+      
         <Herosection />
       <Skills />
-      <AllPortfolio />
-      
+      <AllPortfolio />     
       <About />
       <Contact />
+      <Carousal />
+      
       </div>
     )
 }

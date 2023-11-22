@@ -11,7 +11,7 @@ const [userinfo,setUserInfo]=useState({
 
 });
 const Submit=(e)=>{
-  console.log(userinfo)
+  console.log(userinfo);
 }
 const Handleinput=(e)=>{
     const name=e.target.name;

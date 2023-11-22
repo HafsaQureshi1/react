@@ -3,8 +3,7 @@ code {
     monospace;
 }
 .head{
-    background: linear-gradient(to top, #ffffff, rgba(255, 208, 219, 0.804));
-  
+font-size: 15px;  
 }
 .hero{
   margin-left: 55px;
@@ -58,5 +57,56 @@ code {
   
 }
 .login{
-  width: 20rem;
+  background-color: #E50000;
+  width: 30px;
+}
+.but{
+  width: 200%;
+}
+.b{
+width: auto;
+color:#D9D9D9;
+}
+.car{
+  width: 5px;
+}
+/* Carousal.css *//* Carousal.css */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  color: black; /* Set the color of arrows to black */
+}
+
+.custom-prev-icon,
+.custom-next-icon {
+  font-size: 30px; /* Adjust the font size to make the icons larger */
+  color: black; /* Set the color of arrows to black */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 10%; /* Adjust the width as needed */
+}
+
+.carousel-indicators li {
+  background-color: white; /* Set the background color of indicators to white */
+}
+/* Your stylesheet, e.g., styles.css */
+.circular-div {
+  margin-top: 25px;
+  margin-left: 100px;
+  width: 200px; /* Set the width of the circular div */
+  height: 200px; /* Set the height of the circular div */
+  background-color: #c20c1e; /* Set the danger color */
+  border-radius: 50%; /* Make it circular */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255); /* Set the text color to white */
+  font-weight: bold; /* Optionally, set font weight for bold text */
+}
+
+/* Additional styles as needed */
+.s{
+  font-size: 555px;
+  margin-left: 100px;
 }

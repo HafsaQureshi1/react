@@ -1,5 +1,6 @@
+import Button from 'react-bootstrap/Button';
+
 import Container from 'react-bootstrap/Container';
-import Image from 'react-bootstrap/Image';
 import Row from 'react-bootstrap/Row';
 
 export default function Herosection() {
@@ -9,15 +10,29 @@ export default function Herosection() {
     <Container>
       <Row className=" justify-content-md-center">
         <div className=' col-lg-6 col-md-12 col-sm-12'>
-          <p className=' hero fw-bold'> Hi I am Hafsa , <br />Software Developer</p>
+          <p style={{ color: `linear-gradient(to right, #208FFD, #A5FA94)` }} className=' hero fw-bold'> The Fast Pinpoint <br />
+<span className='text-danger'>  Get Started - </span>
+Tracking & Reservation.</p>
           </div>
-        <div className='justify-content-center text-center col-lg-6 col-md-12 col-sm-12'>
-        <Image className='img1' src="https://img.freepik.com/free-photo/brunette-business-woman-with-wavy-long-hair-blue-eyes-stands-holding-notebook-hands_197531-343.jpg?w=360&t=st=1700235477~exp=1700236077~hmac=4557a6f3cc142616f302d4b8823a526d311278c4a35cd72aa3124e0c59e08c3f"  alt='hell' />
+        <div className='my-5  justify-content-center text-center col-lg-6 col-md-12 col-sm-12'>
+        <p className='circular-div'> Get Started</p>
         </div>
       </Row>
     </Container>
-    
+    <div className='container'>Pinpoint is the fastest tracking and reservation software solution for personal and enterprise vehicles for institutes, offices and companies with live tracking, history recording, estimated arrival time and usage report generation and much more features</div>
+    <br /><br /><br />
+    <div className='container'>
+      <div className='row'>
+        <div className='col-lg-4 col-md-4 col-sm-4  justify-content-center text-center'><Button className='mx-2 b'variant='secondary' >5000 users</Button></div>
+        <div className='col-lg-4 col-md-4 col-sm-4 justify-content-center text-center'><Button className='mx-2 b'variant='secondary' >10,000 trusted clients</Button></div>
+        <div className='col-lg-4 col-md-4 col-sm-4 justify-content-center text-center'><Button className='mx-2 b 'variant='secondary' >10k+ downloads</Button></div>
+      
 
+      </div>
+    </div>
+    <p style={{ color: `linear-gradient(to right, #208FFD, #A5FA94)` }} className='  hero fw-bold'> Pinpoint Security, <br />
+ensure the best 
+usage for the institutes</p>
     </ >
   );
 }
